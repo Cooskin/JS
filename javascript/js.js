@@ -1,19 +1,19 @@
 // document.write("hello");
 window.onload = function () {
-    const d = document.getElementById('div1');
-    const ul = document.getElementById('ul');
-    const btn = document.getElementById('btn');
-    const li_2 = document.getElementById('li_2');
-    const li_1 = document.getElementById('li_1');
-    const b_1 = document.getElementById('background_1');
-    const b_2 = document.getElementById('background_2');
-    const b_3 = document.getElementById('background_3');
-    const w_1 = document.getElementById('width_1');
-    const w_2 = document.getElementById('width_2');
-    const w_3 = document.getElementById('width_3');
-    const h_1 = document.getElementById('height_1');
-    const h_2 = document.getElementById('height_2');
-    const h_3 = document.getElementById('height_3');
+    var d = document.getElementById('div1');
+    var ul = document.getElementById('ul');
+    var btn = document.getElementById('btn');
+    var li_2 = document.getElementById('li_2');
+    var li_1 = document.getElementById('li_1');
+    var b_1 = document.getElementById('background_1');
+    var b_2 = document.getElementById('background_2');
+    var b_3 = document.getElementById('background_3');
+    var w_1 = document.getElementById('width_1');
+    var w_2 = document.getElementById('width_2');
+    var w_3 = document.getElementById('width_3');
+    var h_1 = document.getElementById('height_1');
+    var h_2 = document.getElementById('height_2');
+    var h_3 = document.getElementById('height_3');
 
     btn.onclick = function () {
         ul.style.display = 'block';
