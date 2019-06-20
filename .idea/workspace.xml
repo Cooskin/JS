@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88632efe-ca62-4420-b8ae-58ee25c28e02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_1/L_2/L_2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/L_2/L_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/L_2/L_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/L_3/L_3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/L_3/L_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/L_3/L_3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/L_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/L_1/L_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/L_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/L_1/L_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/L_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/L_1/L_1.js" afterDir="false" />
-    </list>
+    <list default="true" id="88632efe-ca62-4420-b8ae-58ee25c28e02" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -191,7 +179,7 @@
       <workItem from="1560647533133" duration="11016000" />
       <workItem from="1560860823484" duration="598000" />
       <workItem from="1560948434046" duration="5206000" />
-      <workItem from="1561016649630" duration="8429000" />
+      <workItem from="1561016649630" duration="8551000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript练习">
       <created>1559230485195</created>
@@ -235,11 +223,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560518364246</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JavaScript练习">
+      <created>1561046426165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561046426165</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JavaScript练习">
+      <created>1561046506058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561046506058</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77633000" />
+    <option name="totallyTimeSpent" value="77755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -248,6 +250,7 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.15252976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -273,6 +276,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JavaScript练习" />
     <option name="LAST_COMMIT_MESSAGE" value="JavaScript练习" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson_1/L_3/L_3.js</url>
+          <line>37</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TRY/try.js">
