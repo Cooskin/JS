@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88632efe-ca62-4420-b8ae-58ee25c28e02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_2/L_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_2/L_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_2/L_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_3/L_3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_3/L_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_3/L_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/L_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/L_1/L_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/L_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/L_1/L_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/L_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/L_1/L_1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,37 +24,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson_1/L_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_1/L_1.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_1/L_1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.46130952">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="356">
+                  <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="498">
+                  <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -66,6 +92,15 @@
         <option value="$PROJECT_DIR$/lesson_1/L_1.css" />
         <option value="$PROJECT_DIR$/lesson_1/L_1.html" />
         <option value="$PROJECT_DIR$/lesson_1/L_1.js" />
+        <option value="$PROJECT_DIR$/lesson_1/L_2/l_2.html" />
+        <option value="$PROJECT_DIR$/lesson_1/L_1/L_1.html" />
+        <option value="$PROJECT_DIR$/lesson_1/L_1/L_1.js" />
+        <option value="$PROJECT_DIR$/lesson_1/L_2/L_2.css" />
+        <option value="$PROJECT_DIR$/lesson_1/L_2/L_2.html" />
+        <option value="$PROJECT_DIR$/lesson_1/L_2/L_2.js" />
+        <option value="$PROJECT_DIR$/lesson_1/L_3/L_3.css" />
+        <option value="$PROJECT_DIR$/lesson_1/L_3/L_3.html" />
+        <option value="$PROJECT_DIR$/lesson_1/L_3/L_3.js" />
       </list>
     </option>
   </component>
@@ -85,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,32 +131,16 @@
             <path>
               <item name="JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -131,6 +151,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.PC-20190406IBIN\Desktop\JS\lesson_1\L_1" />
       <recent name="C:\Users\Administrator.PC-20190406IBIN\Desktop\JS\TRY" />
     </key>
   </component>
@@ -164,7 +185,13 @@
       <workItem from="1559279496991" duration="4007000" />
       <workItem from="1559882410368" duration="328000" />
       <workItem from="1560432131915" duration="4072000" />
-      <workItem from="1560513328158" duration="4908000" />
+      <workItem from="1560513328158" duration="5527000" />
+      <workItem from="1560563939563" duration="20063000" />
+      <workItem from="1560604601286" duration="9274000" />
+      <workItem from="1560647533133" duration="11016000" />
+      <workItem from="1560860823484" duration="598000" />
+      <workItem from="1560948434046" duration="5206000" />
+      <workItem from="1561016649630" duration="8429000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript练习">
       <created>1559230485195</created>
@@ -201,16 +228,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560517394146</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JavaScript练习">
+      <created>1560518364246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560518364246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22428000" />
+    <option name="totallyTimeSpent" value="77633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15625" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15252976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,6 +266,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.html" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JavaScript练习" />
@@ -305,20 +343,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/L_1.css">
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_1/L_1.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/L_1.js">
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_1/L_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/L_1.html">
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_2/img/a.jif" />
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_2/img/img_1.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_1/L_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="288">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_2/L_2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534480">
+          <caret line="17829" column="12" selection-start-line="17829" selection-start-column="12" selection-end-line="17829" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_2/L_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_2/L_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#div1{
+    width: 200px;
+    height:300px;
+    border: 1px solid #000;
+    margin: 20px 0 0 20px;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.sapn_l{
+    font-size: 16px;
+    background: #cfcfcf;
+}
+.span_2{
+    font-size:16px;
+    background: green;
+    color: #fff;
+}
