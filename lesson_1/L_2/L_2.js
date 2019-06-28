@@ -5,7 +5,7 @@ window.onload = function () {
     var oSpan = document.getElementById('span1');
 
     oBtn.onclick = function () {
-        msg = oText.value;
+        var msg = oText.value;
         sendMsgA(msg)
     }
 };

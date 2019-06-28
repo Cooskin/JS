@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88632efe-ca62-4420-b8ae-58ee25c28e02" name="Default Changelist" comment="" />
+    <list default="true" id="88632efe-ca62-4420-b8ae-58ee25c28e02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_4/L_4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_4/L_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/L_4/L_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/L_2/L_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/L_2/L_2.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,17 +19,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46130952">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lesson_1/L_4/L_4.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="420">
+                  <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lesson_1/L_4/L_4.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -30,23 +43,10 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="498">
-                  <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/lesson_1/L_4/L_4.js">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -57,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -85,10 +85,13 @@
         <option value="$PROJECT_DIR$/lesson_1/L_1/L_1.js" />
         <option value="$PROJECT_DIR$/lesson_1/L_2/L_2.css" />
         <option value="$PROJECT_DIR$/lesson_1/L_2/L_2.html" />
-        <option value="$PROJECT_DIR$/lesson_1/L_2/L_2.js" />
         <option value="$PROJECT_DIR$/lesson_1/L_3/L_3.css" />
         <option value="$PROJECT_DIR$/lesson_1/L_3/L_3.html" />
+        <option value="$PROJECT_DIR$/lesson_1/L_2/L_2.js" />
         <option value="$PROJECT_DIR$/lesson_1/L_3/L_3.js" />
+        <option value="$PROJECT_DIR$/lesson_1/L_4/L_4.js" />
+        <option value="$PROJECT_DIR$/lesson_1/L_4/L_4.html" />
+        <option value="$PROJECT_DIR$/lesson_1/L_4/L_4.css" />
       </list>
     </option>
   </component>
@@ -119,7 +122,18 @@
             <path>
               <item name="JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="L_4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,6 +169,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="L_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="L_2.js" working-dir="$PROJECT_DIR$/lesson_1/L_2">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.L_2.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -180,6 +204,8 @@
       <workItem from="1560860823484" duration="598000" />
       <workItem from="1560948434046" duration="5206000" />
       <workItem from="1561016649630" duration="8551000" />
+      <workItem from="1561046546379" duration="34000" />
+      <workItem from="1561721355284" duration="4250000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript练习">
       <created>1559230485195</created>
@@ -237,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561046506058</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="JavaScript练习">
+      <created>1561046560088</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561046560088</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77755000" />
+    <option name="totallyTimeSpent" value="82039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -250,11 +283,10 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.15252976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -262,6 +294,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33781514" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -276,18 +309,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JavaScript练习" />
     <option name="LAST_COMMIT_MESSAGE" value="JavaScript练习" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lesson_1/L_3/L_3.js</url>
-          <line>37</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TRY/try.js">
@@ -400,20 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/L_2/L_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -424,10 +431,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript练习.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_1/L_3/L_3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="184">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_2/L_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_4/L_4.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_4/L_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/L_4/L_4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
         </state>
       </provider>
     </entry>
