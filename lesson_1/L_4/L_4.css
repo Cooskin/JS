@@ -2,7 +2,7 @@
     width: 350px;
     height: 300px;
     border: 5px solid gray;
-    margin: 50px auto 0;
+    margin: 0 auto;
     position: relative;
 }
 #img1{
@@ -53,6 +53,22 @@
     color: #fff;
     text-align: center;
 }
-
-
-
+.div1{
+    width: 350px;
+    height: 38px;
+    background: #f1f1f1;
+    border: 5px solid gray;
+    border-bottom: none;
+    position: relative;
+    margin: 50px auto 0;
+}
+.div1 input {
+    position: absolute;
+    top: 5px;
+}
+#btn1{
+    left: 30px;
+}
+#btn2{
+    right: 30px;
+}
