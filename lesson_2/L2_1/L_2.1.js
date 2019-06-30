@@ -18,7 +18,6 @@ window.onload = function () {
                     aDiv[j].style.top = j * 100 + 'px';
                 }
             }
-
         }
     };
 
