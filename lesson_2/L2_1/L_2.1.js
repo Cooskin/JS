@@ -4,21 +4,26 @@ window.onload = function () {
 
     oBtn.onclick = function () {
 
-        for ( var j =0; j < 10; j++) {
-            document.body.innerHTML += '<div>' + j + '</div>';
-        }
-        for (var j =0;j<aDiv.length;j++) {
-            if (j > 5) {
-                for (j < aDiv.length;j++;) {
-                    aDiv[j].style.left = j * 100 + 'px';
-                    aDiv[j].style.top = j * 100 - 200 + 'px';
-                }
-            } else {
-                for (j < aDiv.length;j++;) {
-                    aDiv[j].style.top = j * 100 + 'px';
-                }
-            }
-        }
-    };
+        for (var i = 0; i < 11; i++){
 
-};
+            document.body.innerHTML += '<div>' + i + '</div>';
+
+        }
+
+        let len = aDiv.length;
+
+        for (var i = 0; i < aDiv.length; i++) {
+
+            if (i < 6) {
+                aDiv[i].style.left = i * 100 + 'px';
+                aDiv[i].style.top = i * 100 + 'px';
+            } else{
+                aDiv[i].style.left = i * 100 + 'px';
+                aDiv[i].style.top = (len -1) * 100 - i * 100 + 'px';
+            }
+
+        }
+
+    }
+
+}

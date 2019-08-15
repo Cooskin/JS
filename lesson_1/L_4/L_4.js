@@ -1,6 +1,6 @@
 window.onload = function () {
     var url;
-    url = ['../../img/1.jpg', '../../img/2.jpg', '../../img/3.jpg', '../../img/4.jpg'];
+    url = ['../img/1.jpg','../img/2.jpg', '../img/3.jpg', '../img/4.jpg'];
     var text;
     text = ['第一张', '第二张', '第三张', '第四张'];
 
