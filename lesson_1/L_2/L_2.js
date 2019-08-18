@@ -4,6 +4,7 @@ window.onload = function() {
     var oBtn = document.getElementById('btn');
     var oImg = document.getElementById('img');
     var ali = document.getElementsByTagName('li');
+    var ul = document.getElementById('list');
     // var con = document.getElementById('con_l');
     // var img = document.getElementById('img_l');
 
@@ -31,15 +32,14 @@ window.onload = function() {
         }
 
 
+
         if (url) {
 
-            ali[0].innerHTML += '<div class="background_l"></div>' + '<div class="con_l">' + oText.value + '</div>' + '<br/>';
+            ul.innerHTML += '<li class="fl">' + '<div class="background_l"></div>' + '<div class="con_l">' + oText.value + '</div>' + '</li>' + '<br/>';
             oText.value = "";
-            img.src = oImg.src;
         } else {
-            ali[0].innerHTML += '<div class="background_r"></div>' + '<div class="con_l">' + oText.value + '</div>' + '<br/>';
+            ul.innerHTML += '<li class="fr">' + '<div class="background_r"></div>' + '<div class="con_l">' + oText.value + '</div>' + '</li>' + '<br/>';
             oText.value = "";
-            img.src = oImg.src;
         }
 
 

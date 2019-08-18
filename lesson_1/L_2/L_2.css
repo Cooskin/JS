@@ -1,4 +1,13 @@
-#div1 {
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+ul {
+    overflow: auto;
     width: 250px;
     height: 350px;
     border: 1px solid #000;
@@ -20,7 +29,8 @@
 }
 
 .background_r {
-    display: inline-block;
+    float: right;
+    /* display: inline-block; */
     vertical-align: middle;
     height: 30px;
     width: 30px;
