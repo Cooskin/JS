@@ -21,6 +21,11 @@
         }
         
         input {
+            margin-top: 25px;
+        }
+        
+        body {
+            height: 700px;
             margin-bottom: 30px;
         }
     </style>
@@ -36,15 +41,31 @@
                     document.body.innerHTML += '<div>' + i + '</div>';
                 }
                 var len = aDiv.length;
-
+                var num = 0;
                 for (var i = 0; i < len; i++) {
 
-                    if (i % 10 == 0) {
-                        aDiv[i].style.left = 10 + 'px'
-                        aDiv[i].style.top += 60 + 'px'
+                    aDiv[i].style.left = 10 + i % 10 * 60 + 'px'
 
-                    } else if (i % 10 == 1) {
-                        aDiv[i].style.left = 60 + 'px';
+                    if (i < 10) {
+                        aDiv[i].style.top = 60 + 'px'
+                    } else if (i < 20 && i >= 10) {
+                        aDiv[i].style.top = 120 + 'px';
+                    } else if (i < 30 && i >= 20) {
+                        aDiv[i].style.top = 180 + 'px';
+                    } else if (i < 40 && i >= 30) {
+                        aDiv[i].style.top = 240 + 'px';
+                    } else if (i < 50 && i >= 40) {
+                        aDiv[i].style.top = 300 + 'px';
+                    } else if (i < 60 && i >= 50) {
+                        aDiv[i].style.top = 360 + 'px';
+                    } else if (i < 70 && i >= 60) {
+                        aDiv[i].style.top = 420 + 'px';
+                    } else if (i < 80 && i >= 70) {
+                        aDiv[i].style.top = 480 + 'px';
+                    } else if (i < 90 && i >= 80) {
+                        aDiv[i].style.top = 540 + 'px';
+                    } else if (i < 100 && i >= 90) {
+                        aDiv[i].style.top = 600 + 'px';
                     }
 
 
