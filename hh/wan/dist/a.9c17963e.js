@@ -121,21 +121,25 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 window.onload = function () {
   var oUl = document.getElementById('list'); // oLi = document.getElementById('lis');
 
-  var aH2 = document.getElementsByTagName('h2'),
-      aUl = oUl.getElementsByTagName('ul');
+  var aH2 = document.getElementsByTagName('h2');
+  var aUl = oUl.getElementsByTagName('ul');
 
   var _loop = function _loop(i) {
-    aH2[i].key = true;
-
     aH2[i].onclick = function () {
-      if (aH2[i].key == true) {
+      for (var _i = 0; _i < aUl.length; _i++) {
+        aUl[_i].style.display = 'none';
+        aH2[_i].className = '';
+      }
+      /* aUl[i].style.display = 'block';
+      this.className = 'h2'; */
+
+
+      if (aUl[i].style.display = 'none') {
         aUl[i].style.display = 'block';
-        this.style.backgroundImage = 'url(./img/ico2.gif)';
-        this.key = false;
+        this.className = 'h2';
       } else {
         aUl[i].style.display = 'none';
-        this.style.backgroundImage = 'url(./img/ico1.gif)';
-        this.key = true;
+        this.className = '';
       }
     };
   };
@@ -172,7 +176,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52593" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58655" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
