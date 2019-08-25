@@ -9,27 +9,71 @@ window.onload = function() {
 
     for (let i = 0; i < aH2.length; i++) {
 
+        aH2[i].key = true;
+        aUl[i].style.display = 'none';
+        aH2[i].className = '';
+
         aH2[i].onclick = function() {
 
             for (let i = 0; i < aUl.length; i++) {
 
+
+                if (aUl[i].style.display == 'none') {
+                    aH2[i].key = true;
+                } else {
+                    aH2[i].key = false;
+                }
+
                 aUl[i].style.display = 'none';
                 aH2[i].className = '';
-
             }
 
-            /* aUl[i].style.display = 'block';
-            this.className = 'h2'; */
-            if (this.className == '') {
+            if (this.key == true) {
                 aUl[i].style.display = 'block';
                 this.className = 'h2';
+                this.key = false;
             } else {
                 aUl[i].style.display = 'none';
                 this.className = '';
+                this.key = true;
             }
 
         }
 
     }
+
+
+    var aLi = null;
+    var arrLi = [];
+
+    for (let i = 0; i < aUl.length; i++) {
+        aLi = aUl[i].getElementsByTagName('li');
+        for (let j = 0; j < aLi.length; j++) {
+            arrLi.push(aLi[j]);
+        }
+
+    }
+
+    for (let i = 0; i < arrLi.length; i++) {
+
+
+        arrLi[i].onclick = function() {
+
+            for (let i = 0; i < arrLi.length; i++) {
+
+                arrLi[i].className = '';
+
+            }
+
+            if (arrLi[i].className = '') {
+                arrLi[i].className = 'color';
+            } else {
+                arrLi[i].className = '';
+            }
+
+        }
+
+    }
+
 
 }
