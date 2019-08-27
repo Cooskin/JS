@@ -56,21 +56,30 @@ window.onload = function() {
 
     for (let i = 0; i < arrLi.length; i++) {
 
+        arrLi[i].index = true;
 
         arrLi[i].onclick = function() {
 
-            for (let i = 0; i < arrLi.length; i++) {
+
+
+            for (var i = 0; i < arrLi.length; i++) {
+
+                if (this.className == '') {
+                    arrLi[i].index = true;
+                } else {
+                    arrLi[i].index = false;
+                }
 
                 arrLi[i].className = '';
 
             }
 
-            if (arrLi[i].className = '') {
-                arrLi[i].className = 'color';
+
+            if (this.index == true) {
+                this.className = 'color';
             } else {
-                arrLi[i].className = '';
+                this.className = '';
             }
-
         }
 
     }

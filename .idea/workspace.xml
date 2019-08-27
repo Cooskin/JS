@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88632efe-ca62-4420-b8ae-58ee25c28e02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hh/wan/a.js" beforeDir="false" afterPath="$PROJECT_DIR$/hh/wan/a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hh/wan/q.html" beforeDir="false" afterPath="$PROJECT_DIR$/hh/wan/q.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -270,6 +268,7 @@
       <workItem from="1566639588460" duration="9000" />
       <workItem from="1566694704404" duration="5000" />
       <workItem from="1566741805408" duration="5000" />
+      <workItem from="1566813239505" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript练习">
       <created>1559230485195</created>
@@ -373,7 +372,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121700000" />
+    <option name="totallyTimeSpent" value="121706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
