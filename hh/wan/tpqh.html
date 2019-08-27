@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            position: relative;
+            left: 135px;
+            top: 10px;
+        }
+        
+        li {
+            list-style: none;
+            float: left;
+            width: 15px;
+            height: 15px;
+            background: #f1f1f1;
+            border-radius: 50%;
+            margin-left: 15px;
+        }
+        
+        .activ {
+            background: rgb(255, 145, 0);
+        }
+        
+        body {
+            background: rgb(65, 65, 65);
+        }
+        
+        #div1,
+        #img1 {
+            height: 530px;
+            width: 420px;
+        }
+        
+        #div1 {
+            position: relative;
+            margin: 30px auto;
+        }
+        
+        a {
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            top: 250px;
+            border: #f1f1f1 1px solid;
+            border-radius: 50%;
+            opacity: 0.2;
+        }
+        
+        #up {
+            left: 10px;
+            background: #f1f1f1 url(./img/left.gif) no-repeat center center;
+        }
+        
+        #dn {
+            background: #f1f1f1 url(./img/right.gif) no-repeat center center;
+            right: 10px;
+        }
+        
+        a:hover {
+            opacity: 0.8;
+        }
+        
+        .con,
+        .con_img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .con {
+            display: none;
+            background: #f1f1f1;
+            position: relative;
+            padding: 5px;
+            top: -76px;
+            left: -22px;
+            opacity: 0.9;
+        }
+        
+        .div2 {
+            width: 0;
+            height: 0;
+            position: absolute;
+            bottom: -16px;
+            left: 21px;
+            border: 8px solid;
+            border-color: #f1f1f1 transparent transparent;
+        }
+    </style>
+
+</head>
+<script>
+    window.onload = function() {
+        var oDiv = document.getElementById('div1'),
+            oImg = document.getElementById('img1'),
+            oUp = document.getElementById('up'),
+            oDn = document.getElementById('dn'),
+            oUl = document.getElementById('ul'),
+            arr = ['./img/1.png', './img/2.png', './img/3.png', './img/4.png'];
+
+        var aLi = oUl.getElementsByTagName('li'),
+            aDiv = oUl.getElementsByTagName('div');
+
+        function fnTab() {
+            oImg.src = arr[0];
+            aLi[0].className = 'activ';
+            aDiv[0].style.display = 'block';
+        }
+
+        fnTab();
+    }
+</script>
+
+<body>
+    <div id="div1">
+        <img id="img1" src="" alt="" />
+        <a id="up" href="#"></a>
+        <a id="dn" href="#"></a>
+        <ul id="ul">
+            <li>
+                <div class="con">
+                    <img class="con_img" src="./img/1.png" alt="">
+                    <span class="div2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="con">
+                    <img class="con_img" src="./img/2.png" alt="">
+                    <span class="div2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="con">
+                    <img class="con_img" src="./img/3.png" alt="">
+                    <span class="div2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="con">
+                    <img class="con_img" src="./img/4.png" alt="">
+                    <span class="div2"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
