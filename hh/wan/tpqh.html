@@ -107,18 +107,74 @@
             oUp = document.getElementById('up'),
             oDn = document.getElementById('dn'),
             oUl = document.getElementById('ul'),
-            arr = ['./img/1.png', './img/2.png', './img/3.png', './img/4.png'];
+            arr = [
+                './img/1.png',
+                './img/2.png',
+                './img/3.png',
+                './img/4.png'
+            ];
 
-        var aLi = oUl.getElementsByTagName('li'),
-            aDiv = oUl.getElementsByTagName('div');
+        var aLi = oUl.getElementsByTagName('li');
+
+        var num = 0;
+
 
         function fnTab() {
-            oImg.src = arr[0];
-            aLi[0].className = 'activ';
-            aDiv[0].style.display = 'block';
+
+            for (var i = 0; i < aLi.length; i++) {
+                aLi[i].className = '';
+            }
+
+            oImg.src = arr[num];
+            aLi[num].className = 'activ';
+
+            // aDiv[num].style.display = 'block';
         }
 
         fnTab();
+
+        function up() {
+            num--;
+            if (num < 0) {
+                num = 3;
+            }
+            fnTab();
+        }
+
+        function dn() {
+            num++;
+            if (num > 3) {
+                num = 0;
+            }
+            fnTab();
+        }
+
+        oUp.onclick = up;
+        oDn.onclick = dn;
+
+
+        for (var i = 0; i < arr.length; i++) {
+
+            aLi[i].index = i;
+
+            aLi[i].onclick = function() {
+                for (var i = 0; i < aLi.length; i++) {
+                    aLi[i].className = '';
+                }
+                num = this.index;
+                oImg.src = arr[num];
+                aLi[num].className = 'activ';
+            }
+        }
+
+        for (var i = 0; i < aLi.length; i++) {
+            aLi[i].onmouseover = function() {
+                this.getElementsByTagName('div')[0].style.display = 'block';
+            }
+            aLi[i].onmouseout = function() {
+                this.getElementsByTagName('div')[0].style.display = '';
+            }
+        }
     }
 </script>
 
