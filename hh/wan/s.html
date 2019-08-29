@@ -113,10 +113,13 @@
                 // oImg2.index2--;
                 num1--;
                 num2--;
-                if (num2 < 0) {
-                    num2 = arrRight.length;
+                if (num2 < 0 && num1 < 0) {
+                    num2 = arrRight.length - 1;
+                    num1 = arrLeft.length - 1;
                 } else if (num1 < 0) {
-                    num1 = arrLeft.length;
+                    num1 = arrLeft.length - 1;
+                } else if (num2 < 0) {
+                    num2 = arrRight.length - 1;
                 }
                 fn1();
             }
@@ -125,10 +128,13 @@
                 // oImg2.index2++;
                 num1++;
                 num2++;
-                if (num2 > arrRight.length) {
+                if (num2 > arrRight.length - 1 && num1 > arrLeft.length - 1) {
                     num2 = 0;
-                } else if (num1 > arrLeft.length) {
                     num1 = 0;
+                } else if (num1 > arrLeft.length - 1) {
+                    num1 = 0;
+                } else if (num2 > arrRight.length - 1) {
+                    num2 = 0;
                 }
                 fn1();
             }
