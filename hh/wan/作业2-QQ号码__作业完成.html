@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>无标题文档</title>
+</head>
+
+<body>
+
+    <script>
+        window.onload = function() {
+
+            var aInp = document.getElementsByTagName('input');
+
+            aInp[1].onclick = function() {
+                var con = aInp[0].value;
+                if (con >= 10000 && con <= 9999999999) {
+
+                    if (con == 0) {
+                        alert('空空如也')
+                    } else if (con.charAt(0) == 0) {
+                        alert('马化腾的QQ号都不是0开头的')
+                    } else if (parseFloat(con) != parseInt(con)) {
+                        alert('小数是怎么回事')
+                    } else {
+                        alert('输入正确')
+                    }
+                } else if (isNaN(con)) {
+                    alert('您输入的' + '(' + con + ')' + '不是数字大佬！！！')
+                } else {
+                    alert('只能输入5-10位的QQ号')
+                }
+            }
+
+        }
+    </script>
+
+
+    请输入QQ号码：<input type="text" />
+    <input type="button" value="判断" />
+
+
+    <br /> 1、有没有输入
+    <br /> 2、输入的是不是数字
+    <br /> 3、不能有0在前面
+    <br /> 4、不能是小数
+    <br /> 5、输入的数字必须在5位以上、10位以内
+    <br />
+
+</body>
+
+</html>
