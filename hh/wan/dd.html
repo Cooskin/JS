@@ -8,16 +8,21 @@
     <title>Document</title>
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
         li {
             float: left;
             list-style: none;
-            width: 20px;
-            height: 20px;
-            background: url(http://wkstatic.bdimg.com/static/wkview/widget/userEvaluation/big-stars_29169e9.png) no-repeat -38px;
+            /* width: 20px;
+            height: 20px; */
+            /* background: url(http://wkstatic.bdimg.com/static/wkview/widget/userEvaluation/big-stars_29169e9.png) no-repeat -38px; */
         }
         
         ul {
-            margin-left: 20px;
+            /* margin-left: 20px; */
             /* display: inline-block; */
         }
         
@@ -26,8 +31,20 @@
         }
         
         div {
+            float: left;
             color: rgb(255, 153, 0);
             font-weight: bold;
+        }
+        
+        li a {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url(http://wkstatic.bdimg.com/static/wkview/widget/userEvaluation/big-stars_29169e9.png) no-repeat -38px;
+        }
+        
+        li .light {
+            background: url(http://wkstatic.bdimg.com/static/wkview/widget/userEvaluation/big-stars_29169e9.png) no-repeat;
         }
     </style>
 
@@ -36,33 +53,65 @@
 <body>
     <span>*总体评价:</span>
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>
+            <a href="javascript:;"></a>
+        </li>
+        <li>
+            <a href="javascript:;"></a>
+        </li>
+        <li>
+            <a href="javascript:;"></a>
+        </li>
+        <li>
+            <a href="javascript:;"></a>
+        </li>
+        <li>
+            <a href="javascript:;"></a>
+        </li>
     </ul>
-    <div>很差</div>
+    <div></div>
     <script>
         var aLi = document.getElementsByTagName('li');
         var oDiv = document.getElementsByTagName('div')[0];
-
+        var a = document.getElementsByTagName('a');
+        var textArr = ['很差', '还行', '一般', '推荐', '力荐'];
+        var to = true;
+        // style.backgroundPositionX = 0
+        // a[i].className = 'light';
         for (let i = 0; i < aLi.length; i++) {
-            aLi[i].index = i;
-            aLi[i].onmousemove = function() {
-                this.style.backgroundPosition = 0;
+            a[i].index = i;
+            a[i].onclick = function() {
+                oDiv.innerHTML = textArr[this.index];
+                this.className = 'light';
                 for (var i = 0; i < aLi.length; i++) {
-                    if (aLi[i].index % this.index === aLi[i].index) {
-                        aLi[i].style.backgroundPosition = 0;
+                    if (a[i].index % this.index === a[i].index) {
+                        a[i].className = 'light';
                     }
                 }
             }
-            aLi[i].onmouseout = function() {
-                for (let i = 0; i < aLi.length; i++) {
-                    aLi[i].style.backgroundPosition = -38 + 'px';
+            a[i].onmousemove = function() {
+                for (var i = 0; i < a.length; i++) {
+                    a[i].style.backgroundPositionX = -38 + 'px';
+                    // a[i].className = '';
+                    oDiv.innerHTML = '';
+
+                }
+                this.style.backgroundPositionX = 0;
+                oDiv.innerHTML = textArr[this.index];
+                for (var i = 0; i < aLi.length; i++) {
+                    if (a[i].index % this.index === a[i].index) {
+                        a[i].style.backgroundPositionX = 0;
+                    }
                 }
             }
+            a[i].onmouseout = function() {
 
+                for (let i = 0; i < a.length; i++) {
+                    // a[i].className = '';
+                    a[i].style.backgroundPositionX = -38 + 'px';
+                    oDiv.innerHTML = '';
+                }
+            }
         }
     </script>
 </body>
