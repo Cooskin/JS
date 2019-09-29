@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../myjs/public.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .wrap {
+            margin: 20px auto;
+            border: 1px solid #000000;
+            padding: 10px;
+            height: 250px;
+            width: 460px;
+        }
+        /* #auto{
+             border: 1px solid #000000;
+            padding: 6px;
+
+        } */
+        
+        .nav {
+            width: 152px;
+            height: 40px;
+        }
+        
+        #nav_title li {
+            width: 75px;
+            height: 40px;
+            float: left;
+            background: rgb(227, 253, 111);
+            margin-right: 1px;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+        }
+        
+        #nav_title .title_activ {
+            background: rgb(255, 208, 1);
+            color: rgb(255, 255, 255);
+        }
+        
+        #con_title2 {
+            display: none;
+        }
+        
+        img {
+            width: 310px;
+            height: 210px;
+            float: left;
+        }
+        
+        #con_title1 {
+            display: inline-block;
+            width: 140px;
+            height: 210px;
+        }
+        
+        #con_title1 li,
+        #con_title2 li {
+            width: 140px;
+            height: 70px;
+            text-align: center;
+            line-height: 70px;
+            background: #dafffa;
+            font-weight: bold;
+            font-size: 18px;
+            float: left;
+        }
+        
+        #con_title1 .con_activ,
+        #con_title2 .con_activ {
+            background: #6db0e7;
+            color: #ffffff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="auto">
+            <div class="nav">
+                <ul id="nav_title">
+                    <li class="">阿修罗</li>
+                    <li>因陀罗</li>
+                </ul>
+            </div>
+            <div class="con">
+                <img src="" alt="" />
+                <ul id="con_title1">
+                    <li class="">阿修罗一世</li>
+                    <li>阿修罗二世</li>
+                    <li>阿修罗三世</li>
+                </ul>
+                <ul id="con_title2">
+                    <li>因陀罗一世</li>
+                    <li>因陀罗二世</li>
+                    <li>因陀罗三世</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        var con1Img = [
+            'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1431486022,2052126304&fm=26&gp=0.jpg',
+            'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3228649947,1347115888&fm=26&gp=0.jpg',
+            'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=838957686,744716433&fm=26&gp=0.jpg'
+        ];
+        var con2Img = [
+            'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1251069018,3881952550&fm=26&gp=0.jpg',
+            'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2976326594,1372783528&fm=26&gp=0.jpg',
+            'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568631952393&di=eb6f38653b24b0082eb9e66be30531b2&imgtype=0&src=http%3A%2F%2Fs9.rr.itc.cn%2Fr%2FwapChange%2F20175_12_18%2Fa52oam9627783538542.jpg'
+        ];
+
+        var aImg = document.getElementsByTagName('img');
+        var aLi = _$('nav_title').getElementsByTagName('li');
+        var aLi1 = _$('con_title1').getElementsByTagName('li');
+        var aLi2 = _$('con_title2').getElementsByTagName('li');
+        var num = 0;
+        var num1 = 0;
+        var on = true;
+
+        function fn1() {
+
+            // num++;
+            _$('con_title1').style.display = 'inline-block';
+            _$('con_title2').style.display = 'none';
+
+            aLi[0].className = 'title_activ';
+            aImg[0].src = con1Img[num];
+            aLi1[num].className = 'con_activ';
+            num++;
+        }
+
+        function fn2() {
+
+            // num++;
+            _$('con_title1').style.display = 'none';
+            _$('con_title2').style.display = 'block';
+
+            aLi[1].className = 'title_activ';
+            aImg[0].src = con2Img[num1];
+            aLi2[num1].className = 'con_activ';
+            num1++;
+        }
+
+        function fn3() {
+
+            for (var i = 0; i < aLi.length; i++) {
+                aLi[i].className = '';
+            }
+
+            for (let i = 0; i < aLi1.length; i++) {
+                aLi1[i].className = '';
+                aLi2[i].className = '';
+            }
+
+            if (num > aLi1.length - 1) {
+                num = 0;
+                on = false;
+            } else if (num1 > aLi2.length - 1) {
+                on = true;
+                num1 = 0;
+            }
+
+            if (on === true) {
+                // num = 0;
+                fn1();
+            } else if (on === false) {
+                fn2();
+            }
+
+        }
+
+
+        //     for (let i = 0; i < aLi1.length; i++) {
+        //         // num = i;
+        //         aLi1[i].className = '';
+        //         aLi2[i].className = '';
+
+        //     }
+
+        //     aLi1[num].className = 'con_activ';
+
+        //     aImg[0].src = con1Img[num];
+
+        //     num++;
+
+        //     if (num > 2) {
+
+        //         num1 = num % 2;
+        //         aLi[0].className = '';
+        //         aLi[1].className = 'title_activ';
+
+        //         aImg[0].src = con2Img[num1];
+        //         aLi2[num1].className = 'con_activ';
+
+        //         _$('con_title1').style.display = 'none';
+        //         _$('con_title2').style.display = 'inline-block';
+        //         num++;
+        //     }
+
+        // }
+
+        fn1();
+
+        var timer = setInterval(fn3, 50);
+    </script>
+</body>
+
+</html>
