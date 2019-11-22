@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../myjs/public.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        a {
+            padding: 4px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: rgb(0, 0, 80);
+        }
+        
+        li {
+            float: left;
+            list-style: none;
+        }
+        
+        .triangle {
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 70px;
+            left: 38px;
+            border: 6px solid;
+            border-color: transparent transparent rgb(160, 190, 229);
+        }
+        
+        .wrap {
+            width: 420px;
+            height: 150px;
+            margin: 30px auto;
+            border: 1px solid green;
+            position: relative;
+        }
+        
+        #list li {
+            line-height: 50px;
+            margin: 0 10px;
+            color: rgb(255, 255, 255);
+        }
+        
+        #list {
+            height: 50px;
+            width: 400px;
+            margin: 20px auto 0;
+            border-radius: 10px;
+            background: -webkit-linear-gradient(rgba(0, 83, 218, 0.5), rgb(0, 51, 133));
+        }
+        
+        span {
+            padding-left: 10px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        #list div {
+            cursor: pointer;
+            display: inline-block;
+            padding: 0 10px;
+            line-height: 30px;
+            border-radius: 8px;
+        }
+        
+        .activ {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        
+        #div1 ul {
+            border-radius: 6px;
+            padding-right: 10px;
+            margin: 10px;
+            background: rgb(156, 198, 245);
+            display: inline-block;
+            border: 1px solid rgb(197, 222, 255);
+        }
+        
+        #div1 ul li {
+            height: 34px;
+            line-height: 34px;
+        }
+        
+        #div1 ul div {
+            margin-left: 12px;
+            display: inline-block;
+            color: #1192fc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <ul id="list">
+            <li>
+                <div class="activ">首页</div>
+                <span>|</span>
+            </li>
+            <li>
+                <div>关于我们</div>
+                <span>|</span>
+            </li>
+            <li>
+                <div>作品</div>
+                <span>|</span>
+            </li>
+            <li>
+                <div>博客</div>
+            </li>
+        </ul>
+
+        <div id="div1">
+            <div class="triangle"></div>
+            <ul>
+                <li>
+                    <div>
+                        <a class="activ" href="#">最近更新</a>
+                    </div>
+                    <span>|</span>
+                </li>
+                <li>
+                    <div>
+                        <a href="#">活动</a>
+                    </div>
+                    <span>|</span>
+                </li>
+                <li>
+                    <div>
+                        <a href="#">报名试听</a>
+                    </div>
+                    <span>|</span>
+                </li>
+                <li>
+                    <div>
+                        <a href="#">学员反馈</a>
+                    </div>
+                    <!-- <span>|</span> -->
+                </li>
+
+            </ul>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <script>
+        var oList = _$('list');
+        var aLi = oList.getElementsByTagName('li');
+        // var aDiv = [];
+
+
+        // for (let i = 0; i < aLi.length; i++) {
+        //     aDiv.push(aLi[i].getElementsByTagName('div'));
+        // }
+
+        for (var i = 0; i < aLi.length; i++) {
+
+            aLi[i].children.onclick = function() {
+
+                this.className = 'activ';
+
+                alert(this)
+
+                console.log(this)
+
+            }
+
+            // aDiv[i].onclick = function() {
+            //     this.className = 'activ';
+
+            // }
+
+            // aDiv[i].onmouseout = function() {
+            //     for (var i = 0; i < aDiv.length; i++) {
+            //         aDiv[i].className = '';
+            //     }
+            // }
+
+        }
+    </script>
+
+</body>
+
+</html>

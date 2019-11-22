@@ -108,7 +108,7 @@
             oDn = document.getElementById('dn'),
             oUl = document.getElementById('ul'),
             arr = [
-                './img/1.png',
+                'file:///C:/Users/Administrator.PC-20190406IBIN/Desktop/JS/hh/wan/img/1.png',
                 './img/2.png',
                 './img/3.png',
                 './img/4.png'
@@ -149,8 +149,8 @@
             fnTab();
         }
 
-        oUp.onclick = up;
-        oDn.onclick = dn;
+        oUp.onclick = up; //点击切换上一张图片
+        oDn.onclick = dn; //点击切换下一张图片
 
 
         for (var i = 0; i < arr.length; i++) {
@@ -175,6 +175,8 @@
                 this.getElementsByTagName('div')[0].style.display = '';
             }
         }
+
+
     }
 </script>
 
