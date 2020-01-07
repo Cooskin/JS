@@ -41,6 +41,7 @@
         #img1 {
             height: 530px;
             width: 420px;
+            transition: 1s;
         }
         
         #div1 {
@@ -116,6 +117,8 @@
 
         var aLi = oUl.getElementsByTagName('li');
 
+        oImg.style.transition = '2s';
+
         var num = 0;
 
 
@@ -128,7 +131,6 @@
             oImg.src = arr[num];
             aLi[num].className = 'activ';
 
-            // aDiv[num].style.display = 'block';
         }
 
         fnTab();
@@ -212,6 +214,8 @@
             </li>
         </ul>
     </div>
+    <div style=" width: 0; border: 8px solid;
+    border-color: #f1f1f1 transparent #f1f1f1;"></div>
 </body>
 
 </html>
